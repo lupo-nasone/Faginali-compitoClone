@@ -1,0 +1,30 @@
+   48  git commit -m "mi sto preparando al conflitto modificando la navbar"
+   49  git merge newFeature-Navbar
+   50  git status
+   51  git add .
+   52  git commit -m "conflitto in corso"
+   53  git push -u origin master
+   54  clear
+   55  cd ..
+   56  git clone https://github.com/sena-meucci/progettoStampa.git
+   57  cd progettoStampa/
+   58  code .
+   59  git config user.name "matteo.faginali@gmail.com"
+   60  git config user.name "matteo faginali"
+   61  git config user.email "matteo.faginali@gmail.com"
+   62  git add .
+   63  git commit -m "aggiunto nome, cognome e data"
+   64  git branch 
+   65  git branch BugFix
+   66  git checkout BugFix 
+   67  git status
+   68  git add .
+   69  git commit -m "errore risolto in stampa"
+   70  git log
+   71  git checkout master
+   72  git merge BugFix
+   73  git branch -R BugFix
+   74  git branch -d BugFix
+   75  git branch
+   76  history 30>comandi.txt
+   77  history 30 > comandi.txt
